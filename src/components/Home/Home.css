@@ -1,0 +1,97 @@
+/* Estilos de inicioHome (donde se coloca la imgen que se ve cuando se entra por
+primera vez en la pagina) */
+.bg-image{
+    background: url(./img/bg-2.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 800px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.bg-image:before{
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: -30px;
+        overflow: visible;
+        width: 50%;
+        height: 70px;
+        z-index: 1;
+        -webkit-transform: skewY(4deg);
+        -moz-transform: skewY(4deg);
+        -ms-transform: skewY(4deg);
+        -o-transform: skewY(4deg);
+        transform: skewY(4deg);
+        background-color: #fff;
+}
+
+.bg-image:after {
+	content: '';
+	position: absolute;
+	right: 0;
+	bottom: -30px;
+	overflow: visible;
+	width: 50%;
+	height: 70px;
+	z-index: 1;
+	-webkit-transform: skewY(-4deg);
+	-moz-transform: skewY(-4deg);
+	-ms-transform: skewY(-4deg);
+	-o-transform: skewY(-4deg);
+	transform: skewY(-4deg);
+	background-color: #fff;
+}
+
+.overlay{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.342);
+    
+}
+
+.centro-imge{
+    font-family: sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    width: 65%;
+    height: auto;
+    margin: 200px auto;
+}
+
+.slogan{
+    margin: 0 auto 30px;
+    width: 70%;
+    font-size: 3rem;
+    
+}
+.slogan-descripcion{
+    line-height: 30px;
+    font-size: 1.2rem;
+}
+
+/* Termina los estilos de incioHome */
+
+
+
+
+/* Para tamaños menores de 425px se definen algunas clases para hacer
+que lusca mejor */
+
+@media screen and (max-width: 425px) {  
+
+    .centro-imge{ /* Estilos de en la section de inicioHome osea la primera section de la pagina */
+        width: 80%;
+
+    }
+
+    .pasos-como-comprar{ /* Estilos de en la section de como comprar */
+        flex: 100%;
+    }
+    
+}

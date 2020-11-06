@@ -1,0 +1,33 @@
+.DetalleProducto{
+    margin-top: 100px;
+    width: 100%;
+}
+
+.wraperDetalleProducto{
+    width: 70%;
+    margin: auto;
+}
+
+.detalleSection{
+    display: flex;
+    flex-wrap: wrap;
+}
+.imgDetalle{
+    flex: 40%;
+    padding: 0 10px;
+}
+.detalles {
+    flex: 60%;
+    padding: 0 15px;
+}
+.precio{
+    color: red;
+    font-weight: bold;
+}
+
+.cantidad{
+    color: rgb(139, 139, 139);
+}
+.descripcion{
+    
+}

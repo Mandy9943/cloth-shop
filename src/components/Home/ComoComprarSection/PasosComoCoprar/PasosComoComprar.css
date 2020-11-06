@@ -1,0 +1,56 @@
+
+.pasos-como-comprar{
+    flex: 50%;
+    text-align: center;
+    padding: 20px;
+}
+
+.numero-paso{
+    width: 70px;
+    height: 70px;
+    margin: auto;
+    background: rgb(247, 57, 120);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.contenido-articulo{
+    margin: 18px auto 45px;
+}
+
+.contenido-articulo > h3{
+    text-transform: capitalize;
+    
+}
+
+.contenido-articulo > p{
+    line-height: 26px;
+    color: rgba(255, 255, 255, 0.781);
+}
+
+@media screen and (max-width: 1024px) {
+    
+
+    .pasos-como-comprar{ /* Estilos de en la section de como comprar */
+
+        padding: 10px;
+    }
+
+    .contenido-articulo{ /* Estilos de en la section de como comprar */
+        margin: 18px auto;
+    }
+
+    .contenido-articulo > p{ /* Estilos de en la section de como comprar */
+        line-height: 20px;
+        font: 0.8rem;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .pasos-como-comprar{
+        flex: 100%;
+    }
+}

@@ -1,0 +1,41 @@
+.ProductoExclusivo{
+    flex: 33.3%;
+    padding: 0 10px 12px 10px;
+    overflow: auto;
+    
+    
+    
+}
+
+.ProductoImagen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  
+}
+
+
+
+.ProductoWraper{
+    box-shadow: 0 1px 6px rgb(117, 117, 117);
+    padding: 8px;
+    border-radius: 10px;
+}
+
+.textCenter{
+    text-align: center;
+}
+
+.ProductoTitulo{
+    font-size: 13px;
+    text-transform: uppercase;
+
+}
+
+.ProductoPrecio{
+    font-size: 18px;
+    font-weight: bold;
+
+}
+

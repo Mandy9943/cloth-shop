@@ -1,0 +1,13 @@
+.Boton1{
+    width: 100%;
+    border-radius: 10px;
+    background: transparent;
+    border: 0.85px solid rgba(247, 57, 120, 0.726);
+    
+}
+
+.Boton1:hover{
+    background-color: rgba(247, 57, 120, 0.726);
+    color: white;
+    border-color: transparent;
+}

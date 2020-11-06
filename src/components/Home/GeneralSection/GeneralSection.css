@@ -1,0 +1,61 @@
+
+.sevicios-section{
+    margin-top: 800px;
+
+}
+
+.section{
+    width: 100%;
+    padding: 1px;
+    margin-bottom: 20px;
+
+}
+
+.wraper-section{
+    width: 85%;
+    margin: 60px auto 0 auto;
+}
+
+.mini-header{
+    text-align: center;
+    color: rgb(247, 57, 120);
+    margin-bottom: 20px;
+}
+
+.mini-header span::before {
+    position: absolute;
+    top: 50%;
+    right: -60px;
+    content: '';
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 50px;
+    height: 1px;
+    margin-top: -1px;
+    background: rgb(247, 57, 120);
+}
+
+.mini-header span::after {
+	position: absolute;
+	top: 50%;
+	left: -60px;
+	content: '';
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+	width: 50px;
+	height: 1px;
+	margin-top: -1px;
+	background: rgb(247, 57, 120);
+}
+
+.mini-header span{
+    position: relative;
+    text-transform: uppercase;
+}
+
+.section-header{
+    text-align: center;
+    font-size: 1.7rem;
+}

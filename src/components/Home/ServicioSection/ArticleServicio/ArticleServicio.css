@@ -1,0 +1,58 @@
+.cotenedor-media-servicio{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.media-servicio{
+    width: 65px;
+    height: 65px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.media-servicio > i{
+    font-size: 60px;
+    color :rgb(247, 57, 120);
+}
+
+.article-servicio{
+    flex: 25%;
+    padding: 15px;
+    margin-top: 30px;
+    
+}
+
+.descripcion-servcio, .titulo-servicio{
+    text-align: center;
+}
+.titulo-servicio{
+    margin-bottom: 15px;
+    font-size: 26px;
+    
+}
+.titulo-servicio > h3{
+    font-weight: normal;
+}
+.descripcion-servcio{
+    line-height: 23px;
+    color: rgba(0, 0, 0, 0.747);
+}
+
+.clearfix{
+    clear: both;
+}
+@media screen and (max-width: 734px) { 
+    .article-servicio{ /* Estilos en la section de servicos */
+        flex: 50%;
+
+        
+    }
+}
+@media screen and (max-width: 425px) { 
+    .article-servicio{ /* Estilos en la section de servicos */
+        flex: 100%;   
+    }
+}
+

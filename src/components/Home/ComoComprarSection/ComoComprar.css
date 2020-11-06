@@ -1,0 +1,89 @@
+.como-comprar{
+    width: 100%;
+}
+
+.contenedor-como-comprar{
+    position: relative;
+    width: 85%;
+    margin: auto;
+    background: url(../img/bg-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.overlay-como-comprar{
+    width: 50%;
+    height: 100%;
+    background: rgb(0, 0, 0);
+}
+
+.instrucciones-comprar{
+    
+    padding-bottom: 100px;
+}
+.contenedor-como-comprar:before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -30px;
+    overflow: visible;
+    width: 50%;
+    height: 70px;
+    z-index: 1;
+    -webkit-transform: skewY(4deg);
+    -moz-transform: skewY(4deg);
+    -ms-transform: skewY(4deg);
+    -o-transform: skewY(4deg);
+    transform: skewY(4deg);
+    background-color: #fff;
+}
+
+.contenedor-como-comprar:after {
+content: '';
+position: absolute;
+right: 0;
+bottom: -30px;
+overflow: visible;
+width: 50%;
+height: 70px;
+z-index: 1;
+-webkit-transform: skewY(-4deg);
+-moz-transform: skewY(-4deg);
+-ms-transform: skewY(-4deg);
+-o-transform: skewY(-4deg);
+transform: skewY(-4deg);
+background-color: #fff;
+}
+
+.contenido-como-comprar{
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+}
+
+
+@media screen and (max-width: 1024px) {
+
+    .contenido-como-comprar{ /* Estilos de en la section de como comprar */
+        margin-top: 35px;
+
+    }
+
+   
+}
+
+@media screen and (max-width: 782px) {
+
+    
+
+    .overlay-como-comprar{ /* Estilos de en la section de como comprar */
+        width: 100%;
+        height: 100%;
+        
+        background: rgba(0, 0, 0, 0.616);
+   
+    }
+    
+}

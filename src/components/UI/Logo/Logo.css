@@ -1,0 +1,57 @@
+.logo{
+    font-weight: bold;
+    font-family: sans-serif;
+    
+}
+
+.logo a{
+    text-decoration: none;
+}
+.logo a:hover{
+    text-decoration: none;
+}
+.negro{
+    color: rgba(0, 0, 0, 0.904);
+}
+.negro:hover{
+    color: rgba(0, 0, 0, 0.37);
+}
+
+.blanco{
+    color: rgb(165, 165, 165);
+}
+
+.blanco:hover{
+    color: rgba(141, 141, 141, 0.37);
+  
+}
+
+.medio{
+    font-size: 1.6rem;
+}
+
+.medio .inicialLogo{
+    color: rgba(247, 57, 120, 0.726);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2.3rem;
+}
+.medio .medioLogo{
+    color: rgba(247, 57, 120, 0.726);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2.3rem;
+}
+
+.peque h3{
+    font-size: 1.25rem !important;
+}
+
+.peque .inicialLogo{
+    color: rgba(247, 57, 120, 0.726);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.55rem;
+}
+.peque .medioLogo{
+    color: rgba(247, 57, 120, 0.726);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.55rem;
+}
