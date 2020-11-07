@@ -16,7 +16,7 @@
 }
 
 .wraperFooter a:hover{
-    color: rgba(247, 57, 120, 0.726);
+    color:  var(--colorPrincipal);
 }
 
 .wraperFooter a, .wraperFooter{

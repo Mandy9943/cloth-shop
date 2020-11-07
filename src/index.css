@@ -9,3 +9,8 @@ body{
   background: rgba(255, 255, 255, 0.671);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+:root{
+  --colorPrincipal : rgb(136, 1, 1);
+  --colorPrincipalLiviano : rgba(136, 1, 1, 0.767);
+}

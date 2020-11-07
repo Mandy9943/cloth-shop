@@ -58,11 +58,11 @@
 
 
 .menuItem > a:hover{
-    color: rgba(247, 57, 120, 0.925);
+    color: var(--colorPrincipalLiviano);
 }
 
 .active{
-    color: rgb(247, 57, 120) !important;
+    color: var(--colorPrincipal) !important;
    
 }
 
@@ -104,7 +104,7 @@
   
 
     .menu-movil-button:hover{
-        color:rgba(247, 57, 120, 0.925);
+        color: var(--colorPrincipalLiviano);
     }
     
     .menu{

@@ -18,7 +18,7 @@
 
 .mini-header{
     text-align: center;
-    color: rgb(247, 57, 120);
+    color:  var(--colorPrincipal);
     margin-bottom: 20px;
 }
 
@@ -33,7 +33,7 @@
     width: 50px;
     height: 1px;
     margin-top: -1px;
-    background: rgb(247, 57, 120);
+    background:  var(--colorPrincipal)
 }
 
 .mini-header span::after {
@@ -47,7 +47,7 @@
 	width: 50px;
 	height: 1px;
 	margin-top: -1px;
-	background: rgb(247, 57, 120);
+	background:  var(--colorPrincipal);
 }
 
 .mini-header span{

@@ -4,12 +4,12 @@
     padding: 4px 8px;
     border-radius: 10px;
     background: transparent;
-    border: 0.85px solid rgba(247, 57, 120, 0.726);
+    border: 0.85px solid  var(--colorPrincipalLiviano);
     
 }
 
 .Boton1:hover{
-    background-color: rgba(247, 57, 120, 0.726);
+    background-color:  var(--colorPrincipalLiviano);
     color: white;
     border-color: transparent;
 }

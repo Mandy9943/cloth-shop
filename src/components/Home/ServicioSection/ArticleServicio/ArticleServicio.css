@@ -14,7 +14,7 @@
 
 .media-servicio > i{
     font-size: 60px;
-    color :rgb(247, 57, 120);
+    color : var(--colorPrincipal);
 }
 
 .article-servicio{

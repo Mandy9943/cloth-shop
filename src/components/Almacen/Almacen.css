@@ -23,12 +23,12 @@
 }
 
 .inputBuscar:focus{
-    outline: 0.5px solid rgb(247, 57, 120) !important;
+    outline: 0.5px solid  var(--colorPrincipal) !important;
 }
 
 .btnBuscar{
     flex: 10;
-    background-color: rgb(247, 57, 120);
+    background-color:  var(--colorPrincipal);
     border: none;
     color: white;
     

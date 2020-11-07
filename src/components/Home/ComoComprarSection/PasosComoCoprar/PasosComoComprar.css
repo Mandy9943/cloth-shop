@@ -9,7 +9,7 @@
     width: 70px;
     height: 70px;
     margin: auto;
-    background: rgb(247, 57, 120);
+    background:  var(--colorPrincipal);
     border-radius: 50%;
     display: flex;
     align-items: center;
