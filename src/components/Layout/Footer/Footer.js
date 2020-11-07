@@ -43,11 +43,11 @@ export default function Footer() {
             <h3>Interesantes</h3>
             <ul>
               <li>
-                <Link to="/home#como-comprar">Como comprar ?</Link>
+                <Link to="/como-comprar">Como comprar ?</Link>
                {/* <a href="/home#como-comprar">Como comprar</a> */}
               </li>
               <li>
-                <Link to="#">Servicios</Link>
+                <Link to="/servicios">Servicios</Link>
               </li>
               <li>
                 <Link to="#">Nosotros</Link>

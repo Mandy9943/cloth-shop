@@ -21,6 +21,7 @@
    
 }
 
+
 .subheader{
     width: 80%;
     height: 75px;
@@ -47,9 +48,14 @@
     font-size: 1rem;
     text-decoration: none;
     padding: 0.5rem 0.7rem;
-    color: rgb(163, 163, 163);
+    color: rgb(177, 177, 177);
     font-weight: lighter;
 }
+
+.menuFixed .menuItem > a{
+    color: rgb(75, 75, 75);
+}
+
 
 .menuItem > a:hover{
     color: rgba(247, 57, 120, 0.925);
@@ -95,11 +101,7 @@
     }
     
     
-   /*  .menu-movil-button::after{
-        content: "Menu";
-        text-transform: uppercase;
-        margin: 0 10px;
-    } */
+  
 
     .menu-movil-button:hover{
         color:rgba(247, 57, 120, 0.925);

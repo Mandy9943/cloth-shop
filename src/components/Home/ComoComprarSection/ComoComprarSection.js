@@ -17,33 +17,31 @@ export default function ComoComprarSection() {
                   <PasosComoComprar
                     numero="1"
                     title="escoger"
-                    descrip="Lorem ipsum dolor sit amet consectetur adipisicing
-                    elit. Deleniti earum soluta, recusandae nisi sed
-                    obcaecati?"
+                    descrip="Escoges un producto de nustros diferentes listados de productos
+                    y lo agregas al carrito"
                   />
 
                   <PasosComoComprar
                     numero="2"
-                    title="escoger"
-                    descrip="Lorem ipsum dolor sit amet consectetur adipisicing
-                    elit. Deleniti earum soluta, recusandae nisi sed
-                    obcaecati?"
+                    title="Carrito"
+                    descrip="Una vez en el carro puedes modificar los detalles de la compra 
+                    como puede ser la cantidad a llevar. En este paso solo debes revisar todos
+                    los parametros y continuar"
                   />
 
                   <PasosComoComprar
                     numero="3"
                     title="escoger"
-                    descrip="Lorem ipsum dolor sit amet consectetur adipisicing
-                    elit. Deleniti earum soluta, recusandae nisi sed
-                    obcaecati?"
+                    descrip="Los detalles del pedido serian recogidos via whatsapp o telegram.
+                    Solo debe verificar sus datos como: direccion, nombre y # de carnet para hacer la entrega o
+                    la reservacion de un pedido"
                   />
 
                   <PasosComoComprar
                     numero="4"
-                    title="escoger"
-                    descrip="Lorem ipsum dolor sit amet consectetur adipisicing
-                    elit. Deleniti earum soluta, recusandae nisi sed
-                    obcaecati?"
+                    title="Esperar"
+                    descrip="Luego queda esperar a que su cesta de productos lleguen a su casa (2 dias hábiles) o lo vayas a recoger
+                    en nuestras instalaciones"
                   />
 
                 </div>

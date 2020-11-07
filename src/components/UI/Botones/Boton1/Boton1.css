@@ -1,5 +1,7 @@
 .Boton1{
     width: 100%;
+    text-transform: capitalize;
+    padding: 4px 8px;
     border-radius: 10px;
     background: transparent;
     border: 0.85px solid rgba(247, 57, 120, 0.726);

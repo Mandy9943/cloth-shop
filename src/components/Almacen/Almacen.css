@@ -1,0 +1,46 @@
+.Almacen{
+    width: 100%;
+}
+
+.wrapAlmacen{
+    width: 90%;
+    margin: 0 auto;
+
+}
+
+.seccionBuscar {
+    margin: 0 auto;
+    max-width: 400px;
+    display: flex;
+
+}
+
+.inputBuscar{
+    flex: 90%;
+    padding: 8px 10px;
+    
+
+}
+
+.inputBuscar:focus{
+    outline: 0.5px solid rgb(247, 57, 120) !important;
+}
+
+.btnBuscar{
+    flex: 10;
+    background-color: rgb(247, 57, 120);
+    border: none;
+    color: white;
+    
+}
+
+
+
+.seccionFiltro{
+    margin: 20px auto;
+    width: 100px;
+}
+
+.headerContenidoAlmacen{
+    text-align: center;
+}

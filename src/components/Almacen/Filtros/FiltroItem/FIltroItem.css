@@ -1,0 +1,26 @@
+
+.filtroItem{
+    margin-bottom: 15px;
+}
+
+.filtroItem > h5{
+    text-transform: capitalize;
+}
+
+.filtroItem option{
+    text-transform: capitalize;
+}
+
+.selectFiltro{
+    width: 100%;
+    border-radius: 25px;
+    padding: 4px 12px;
+    border: 0.5px solid rgb(247, 57, 120);
+}
+
+.selectFiltro select{
+    width: 100%;
+    border: none;
+    outline: none;
+    
+}
