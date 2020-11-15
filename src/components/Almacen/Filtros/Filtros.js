@@ -35,6 +35,14 @@ export default class Filtros extends Component {
         this.props.estado2();
     }
 
+    componentDidMount(){
+
+        let filtro = document.getElementById("Filtro");
+        filtro.style.height = filtro.scrollHeight + "px";
+        filtro.style.opacity = "1";
+        
+    }
+
 
     render(){
     const products = [...storeProducts]; /* Esto esta sujeto a cambios ya q solo se usa asi por fines de desarrollo */
@@ -72,11 +80,12 @@ export default class Filtros extends Component {
                 />)
     });
 
+    
 
 
     return (
       <div className="Filtros" id="Filtros" onClick={(e) => this.props.estado(e)}>
-        <div className="wraperFiltros">
+        <div className="wraperFiltros"  id="Filtro">
           <div className="headerFiltro">
             <h3>Filtros</h3>
           </div>

@@ -3,7 +3,9 @@ import ProductoExclusivo from './ProductoExclusivo/ProductoExclusivo';
 import "./ProductosExclusivosSeccion.css";
 
 export default function ProductosExclusivosSeccion(props) {
+  console.log("productos Exclusivo : ", props);
     const productosExclusivos = props.productos.map((product) => {
+      
     return (
       <ProductoExclusivo
         imagenRuta={product.img}

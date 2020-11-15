@@ -10,14 +10,17 @@
     align-items: center;
     
     
+    
 }
 
 .wraperFiltros{
-    display: flex;
+    display: felx;
+    width: 325px;
+    opacity: 0;
     background: white;
-    width: 350px;
     flex-direction: column;
     border-radius: 10px;
+    transition: all 2000ms;
 }
 
 .headerFiltro{

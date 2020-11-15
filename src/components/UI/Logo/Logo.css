@@ -46,12 +46,12 @@
 }
 
 .peque .inicialLogo{
-    color: rgba(247, 57, 120, 0.726);
+    color:  var(--colorPrincipalLiviano);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 1.55rem;
 }
 .peque .medioLogo{
-    color: rgba(247, 57, 120, 0.726);
+    color:  var(--colorPrincipalLiviano);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 1.55rem;
 }

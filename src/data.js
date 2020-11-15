@@ -14,7 +14,7 @@ export const storeProducts = [
            total: 0,
            category: {
              marca: "adidas",
-             color: "blanco",
+             color: "negro",
              tipo: "jersey",
            },
            oferta:{
@@ -178,7 +178,7 @@ export const storeProducts = [
          },
          {
            id: 9,
-           title: "Short Tiza",
+           title: "Pullover Azul",
            price: 13,
            cant : 10,
            img: "/img/product-6.png",
@@ -190,8 +190,8 @@ export const storeProducts = [
            total: 0,
            category: {
              marca: "nike",
-             color: "negro",
-             tipo: "short",
+             color: "azul",
+             tipo: "pullover",
            },
            oferta:{
             estado : true,

@@ -6,6 +6,7 @@ import "./Navegacion.css";
 import React, {useEffect} from 'react';
 import { NavLink } from 'react-router-dom';
 import Logo from "../../UI/Logo/Logo";
+import AnimatedMenuIcon from "../../UI/Botones/AnimatedMenuIcon/AnimatedMenuIcon";
 
 
 export default function Navegacion() {
@@ -36,6 +37,16 @@ export default function Navegacion() {
   const menuClases = ["menu"]; 
   const toggleMenu = () => {
     setOpenMenu(!openMenu);
+
+    /* Con este codigo hago una especie de acordion... basicamente cojo el menu entero y  verifico su max-heigth, si es 0 toma el height que deberia tener, y si tiene algun valor, toma el height de 0
+    ademas, en el css esta agragado una propiedad de transicion para la clase menu que le da el efecto */
+    let menu = document.getElementById("menu");
+
+    if(menu.style.maxHeight){
+      menu.style.maxHeight = null;
+    }else{
+      menu.style.maxHeight = menu.scrollHeight + "px";
+    }
   }
 
   if(openMenu){
@@ -48,15 +59,16 @@ export default function Navegacion() {
           <Logo dimension="medio" color="blanco"/>
           <div className="menu-movil">
 
+        <AnimatedMenuIcon menuClicked={toggleMenu}/>
           
-          <button className="menu-movil-button" onClick={toggleMenu}>
+         {/*  <button className="menu-movil-button" onClick={toggleMenu}>
             <i className="fas fa-bars" ></i>
-          </button>
-          <button className="menu-movil-button" onClick={toggleMenu}>
+          </button> */}
+          <button className="menu-movil-button" >
             <i className="fas fa-cart-plus" ></i>
           </button>
           </div>
-          <ul className={menuClases.join(" ")}>
+          <ul id="menu" className={menuClases.join(" ")}>
             <li className="menuItem">
               <NavLink activeClassName="active" to="/home">
                 Inicio

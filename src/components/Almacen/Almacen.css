@@ -8,32 +8,6 @@
 
 }
 
-.seccionBuscar {
-    margin: 0 auto;
-    max-width: 400px;
-    display: flex;
-
-}
-
-.inputBuscar{
-    flex: 90%;
-    padding: 8px 10px;
-    
-
-}
-
-.inputBuscar:focus{
-    outline: 0.5px solid  var(--colorPrincipal) !important;
-}
-
-.btnBuscar{
-    flex: 10;
-    background-color:  var(--colorPrincipal);
-    border: none;
-    color: white;
-    
-}
-
 
 
 .seccionFiltro{

@@ -4,7 +4,7 @@ import GeneralSection from "./GeneralSection/GeneralSection";
 import "bootstrap/dist/css/bootstrap.min.css";
 import ServicioSection from "./ServicioSection/ServicioSection";
 import ComoComprarSection from "./ComoComprarSection/ComoComprarSection";
-import ProductosExclusivosSeccion from "./ProductosExclusivosSeccion/ProductosExclusivosSeccion";
+import CarruselProductos from './CarruselProductos/CarruselProductos';
 
 export default function Home(props) {
   
@@ -38,7 +38,7 @@ export default function Home(props) {
           title="Ofertas exclusivas"
           section="oferta"
         >
-          <ProductosExclusivosSeccion productos={props.productos} imgClicked={props.imgClicked} />
+          <CarruselProductos productos={props.productos} imgClicked={props.imgClicked}/>
         </GeneralSection>
 
         <ComoComprarSection /> {/* SECCION DE COMO COMPRAR */}

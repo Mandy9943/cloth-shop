@@ -15,7 +15,7 @@
     width: 100%;
     border-radius: 25px;
     padding: 4px 12px;
-    border: 0.5px solid rgb(247, 57, 120);
+    border: 0.5px solid  var(--colorPrincipal);
 }
 
 .selectFiltro select{

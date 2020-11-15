@@ -1,5 +1,5 @@
 .ProductoExclusivo{
-    flex: 33.3%;
+    flex: 25%;
     padding: 0 10px 12px 10px;
     overflow: auto;
     
@@ -39,3 +39,20 @@
 
 }
 
+@media screen and (max-width: 768px) {
+    .ProductoExclusivo{
+        flex: 33.3%;    
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .ProductoExclusivo{
+        flex: 50%;    
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .ProductoExclusivo{
+        flex: 100%;    
+    }
+}

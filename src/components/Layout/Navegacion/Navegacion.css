@@ -12,7 +12,6 @@
 }
 
 .menuFixed{
-    transition: all 2000;
     background: rgb(204, 204, 204);
     position: fixed;
     left: 0;
@@ -88,6 +87,8 @@
     .menu-movil{
         margin-left: auto;
         display: flex;
+        align-items: center;
+        
     }
 
     .menu-movil-button{
@@ -109,8 +110,6 @@
     
     .menu{
         width: 100%;
-        list-style: none;
-        display: none;
         justify-content: right;
         flex-direction: column;
         position: absolute;
@@ -118,6 +117,10 @@
         left: 0;
         background: inherit;
         padding-left: 5%;
+        max-height: 0;
+        overflow: hidden;
+        transition: all 0.2s ease-out;
+        
         
     }
 
