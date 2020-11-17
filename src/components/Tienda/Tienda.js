@@ -8,6 +8,7 @@ import ComoComprarSection from '../Home/ComoComprarSection/ComoComprarSection';
 import OnePageSection from '../hco/OnePageSection/OnePageSection';
 import ServicioSection from '../Home/ServicioSection/ServicioSection';
 import Almacen from "../Almacen/Almacen.js";
+import Contacto from "../Contacto/Contacto";
 
 export default class Tienda extends Component {
     state = {
@@ -84,7 +85,7 @@ export default class Tienda extends Component {
         return (
           <Fragment>
             <Switch>
-				{/* Ruta de Home */}
+              {/* Ruta de Home */}
               <Route
                 path={"/home"}
                 render={() => (
@@ -95,43 +96,43 @@ export default class Tienda extends Component {
                 )}
               />
 
-			  {/* Ruta de Blog */}
-			  <Route 
-			  path={"/blog"} 
-			  render={() => <h1>bolg</h1>} />
+              {/* Ruta de Blog */}
+              <Route path={"/blog"} render={() => <h1>bolg</h1>} />
 
-				{/* Ruta de Almacen */}
+              {/* Ruta de Almacen */}
               <Route
                 path={"/almacen"}
                 render={() => (
-				<Almacen 
-				productos={this.state.productosMostrados} 
-				imgClicked={this.imgClickedHandler} 
-				filtrar={this.filtrarHandler}
-				/>)}
+                  <Almacen
+                    productos={this.state.productosMostrados}
+                    imgClicked={this.imgClickedHandler}
+                    filtrar={this.filtrarHandler}
+                  />
+                )}
               />
 
-				{/* Ruta de Carrito */}
-              <Route path={"/carro"} render={() => <h1>Hello From carro</h1>} />
-
-			  {/* Ruta de Contacto */}
-              <Route
-                path={"/contacto"}
-                render={() => <h1>Hello From Contacto</h1>}
-              />
-
-			  {/* Ruta de FAQ */}
+              {/* Ruta de Carrito */}
 			  <Route 
-			  path={"/faq"} render={() => <h1>Hello From Faq</h1>} />
+				  path={"/carro"} 
+				  render={() => <h1>Hello From carro</h1>} />
 
-				{/* Ruta de Detalle-Producto */}
+              {/* Ruta de Contacto */}
+			  <Route 
+			  path={"/contacto"} 
+			  render={() => (
+			  <Contacto />)} />
+
+              {/* Ruta de FAQ */}
+              <Route path={"/faq"} render={() => <h1>Hello From Faq</h1>} />
+
+              {/* Ruta de Detalle-Producto */}
               <Route
                 path={"/detalle-producto"}
                 render={() => (
                   <DetalleProducto producto={this.state.detalleProducto} />
                 )}
               />
-				{/* Ruta de Como-Comprar */}
+              {/* Ruta de Como-Comprar */}
               <Route
                 path={"/como-comprar"}
                 render={() => (
@@ -140,19 +141,18 @@ export default class Tienda extends Component {
                   </OnePageSection>
                 )}
               />
-				{/* Ruta de Servicios */}
+              {/* Ruta de Servicios */}
               <Route
                 path={"/servicios"}
                 render={() => (
-					<OnePageSection>
-						
-				  <GeneralSection 
-				  minititle="Servicios"
-				  title="Compra Inteligentemente"
-				  >
-                    <ServicioSection />
-                  </GeneralSection>
-				  </OnePageSection>
+                  <OnePageSection>
+                    <GeneralSection
+                      minititle="Servicios"
+                      title="Compra Inteligentemente"
+                    >
+                      <ServicioSection />
+                    </GeneralSection>
+                  </OnePageSection>
                 )}
               />
               <Redirect exact from="/" to="home" />

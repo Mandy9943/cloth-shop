@@ -1,0 +1,161 @@
+.Contacto{
+    width: 100%;
+    height: auto;
+    padding: 1px;
+    background: linear-gradient(rgb(146, 146, 146),white);
+}
+
+.wraperContacto{
+    width: 90%;
+    margin: 90px auto 0 auto;
+}
+
+.heading{
+    text-align: center;
+}
+.contenedorContacto{
+    padding-top: 40px;
+    display: flex;
+}
+
+
+.formularioContacto{
+    flex: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.headerFormularioContacto{
+    width: 90%;
+    margin: auto;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 40px;
+}
+.ipnutForm{
+    flex: 50%;
+    margin-top: 30px;
+    border-radius: 10px;
+    padding: 0 20px;
+}
+
+.ipnutForm label,input,.forMensaje label,textarea{
+    display: block;
+    
+    
+}
+
+.ipnutForm,.forMensaje label{
+    color: rgb(129, 129, 129);
+}
+.ipnutForm input{
+    width: 100%;
+    padding: 8px 11px;
+    font-size: 18px;
+    color: black;
+    border-radius: 5px;
+    border: 0.6px solid rgb(160, 160, 160);
+    outline: none;
+    
+}
+
+.ipnutForm input:focus,.forMensaje textarea:focus{
+    border: 0.6px solid var(--colorPrincipalLiviano);
+}
+
+.forMensaje{
+    flex: 100%;
+    margin-top: 30px;
+    border-radius: 10px;
+    padding: 0 20px;
+}
+
+.forMensaje textarea{
+    width: 100%;
+    height: 200px;  
+    outline: none;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.btnContacto {
+    margin: 30px 20px;
+    padding: 6px 20px;
+    background: white;
+    border-radius: 5px;
+    border: 0.6px solid rgb(160, 160, 160);
+}
+
+.btnContacto:hover{
+    background: var(--colorPrincipal);
+    color: blanchedalmond;
+}
+
+.informacionContacto{
+    flex: 30%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    
+}
+
+.informacionConatcoWraper{
+    margin: auto;
+    background: white;
+    padding: 30px 10px;
+}
+
+.headerInformacion p{
+    font-size: 25px;
+    font-family: "DM Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.bodyInformacion{
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.644);
+}
+
+.footerInformacion{
+    text-align: center;
+}
+
+.footerInformacion a{
+    font-size: 20px;
+    padding: 10px;
+    color: black;
+}
+
+.footerInformacion a:hover{
+    color: var(--colorPrincipal);
+}
+
+
+@media only screen and (max-width: 768px) {
+    .contenedorContacto{  
+       flex-direction: column-reverse;
+    }
+
+    .informacionContacto{
+       padding: 40px;     
+    }
+
+    .informacionConatcoWraper{
+        padding: 50px 20px;
+        box-shadow: 2px 2px 5px black;
+        border-radius: 5px;
+    }
+
+    .headerInformacion{
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 425px){
+    .formularioContacto{
+        
+        display: flex;
+        flex-direction: column;
+        
+    }
+}

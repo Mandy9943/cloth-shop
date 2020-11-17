@@ -1,6 +1,8 @@
 .footer{
     margin-top: 40px;
-    background: rgba(214, 214, 214, 0.37);
+   /*  background: rgba(214, 214, 214, 0.37); */
+   background: linear-gradient(white, rgba(167, 167, 167, 0.37));
+   
 }
 
 .wraperFooter{
