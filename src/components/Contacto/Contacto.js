@@ -1,5 +1,7 @@
 import React from 'react'
 import "./Contacto.css"
+import { Link } from 'react-router-dom'
+
 
 
 export default function Contacto() {
@@ -66,15 +68,15 @@ export default function Contacto() {
               <div className="footerInformacion">
                   <h6>Nuestras Redes</h6>
                 <div className="rederSociales">
-                  <a href="">
+                  <Link to="#">
                     <i className="fas fa-home"></i>
-                  </a>
-                  <a href="">
+                  </Link>
+                  <Link to="#">
                     <i className="fas fa-home"></i>
-                  </a>
-                  <a href="">
+                  </Link>
+                  <Link to="#">
                     <i className="fas fa-home"></i>
-                  </a>
+                  </Link>
                 </div>
               </div>
               </div>
